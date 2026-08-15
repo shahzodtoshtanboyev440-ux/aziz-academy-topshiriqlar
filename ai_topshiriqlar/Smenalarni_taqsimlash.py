@@ -1,0 +1,11 @@
+# Smenalarni taqsimlash
+# Kurs: Dasturlash / IT
+# Mavzu: O'rnatish va muhit — Python, interpreter, IDE sozlash
+# Ball: 100
+# Aziz Academy — AI Topshiriq
+
+n = int(input())
+k = int(input())
+print(n // k)
+print(n % k)
+print((k - n % k) if n % k != 0 else 0)
